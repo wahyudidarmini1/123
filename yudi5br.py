@@ -6,7 +6,7 @@ from datetime import datetime
 import time,random,sys,json,codecs,threading,glob
 
 cl = CYBERTK.LINE()
-cl.login(token="ErIcUdnFCIEVjw9RUnYe.4uWnRTJU51yT+/CjXTyHBG.62IuWFh+yNFYYIzW2gaSIb9xiwpGpel7ND+17rl/+gQ=")
+cl.login(token="ErVN3iCCCVGqLmMh37u9.VfG2daMSMKOL78PxRGOi6q.joiZOkRzJMFaIdCw8fc05/MTTUDw6jFH7SynZMohCAo=")
 cl.loginResult()
 
 ki = CYBERTK.LINE()
