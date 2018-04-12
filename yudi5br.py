@@ -1,38 +1,33 @@
 # -*- coding: utf-8 -*-
-#Chucky_Bot
 
-import LINETCR
-from LINETCR.lib.curve.ttypes import *
+import CYBERTK
+from CYBERTK.lib.curve.ttypes import *
 from datetime import datetime
-from bs4 import BeautifulSoup
-from threading import Thread
-from googletrans import Translator
-from gtts import gTTS
-import time,random,sys,json,codecs,threading,glob,urllib,urllib2,urllib3,re,ast,os,subprocess,requests,tempfile
+import time,random,sys,json,codecs,threading,glob
 
-cl = LINETCR.LINE()
+cl = CYBERTK.LINE()
 cl.login(token="ErIcUdnFCIEVjw9RUnYe.4uWnRTJU51yT+/CjXTyHBG.62IuWFh+yNFYYIzW2gaSIb9xiwpGpel7ND+17rl/+gQ=")
 cl.loginResult()
 
-ki = LINETCR.LINE()
+ki = CYBERTK.LINE()
 ki.login(token="ErYq8uR6zdhpb4l8VNob.drkXjI9kC7gz45kx2rUb2W.Q+y+jPqM97ec795kfIamMF/JfdhJH7pgxmaq2VhBOzo=")
 ki.loginResult()
 
-kk = LINETCR.LINE()
-kk.login(token="ErVmcbe6ILNRNeRaKrh3.eXGEKA8y87MQtoFvPFGwuW.ilPJGgdrZ2bjxR6bow/H5sF8hyxrqF3d7qOUTYrnIko=")
-kk.loginResult()
+ki2 = CYBERTK.LINE()
+ki2.login(token="ErVmcbe6ILNRNeRaKrh3.eXGEKA8y87MQtoFvPFGwuW.ilPJGgdrZ2bjxR6bow/H5sF8hyxrqF3d7qOUTYrnIko=")
+ki2.loginResult()
 
-kc = LINETCR.LINE()
-kc.login(token="Erfr5XQAVjKIXwfYjT33.Z7tUqKO5oaEP2cnIzYreyW.mifl520WPj4RNQ7i40LVxjVm6sIFaLK092xFHbrv2+s=")
-kc.loginResult()
+ki3 = CYBERTK.LINE()
+ki3.login(token="Erfr5XQAVjKIXwfYjT33.Z7tUqKO5oaEP2cnIzYreyW.mifl520WPj4RNQ7i40LVxjVm6sIFaLK092xFHbrv2+s=")
+ki3.loginResult()
 
-kr = LINETCR.LINE()
-kr.login(token="ErTVmOPrbfJ5a5LO7zyf.StMJ2yMSv7H5XrT17lGnZW.rMF/76j2t8ytEcA7l0ue8Xn4olZdLm825eDypqbByMc=")
-kr.loginResult()
+ki4 = CYBERTK.LINE()
+ki4.login(token="ErTVmOPrbfJ5a5LO7zyf.StMJ2yMSv7H5XrT17lGnZW.rMF/76j2t8ytEcA7l0ue8Xn4olZdLm825eDypqbByMc=")
+ki4.loginResult()
 
-km = LINETCR.LINE()
-km.login(token="Erbw8FkQTsCSxWtKItOa.SD28EqyjtLBjPT144PdcQG.MRncp08pfgFL2ZQ080cJHVqAFkfPRtD6CYichKXOj6s=")
-km.loginResult()
+ki5 = CYBERTK.LINE()
+ki5.login(token="Erbw8FkQTsCSxWtKItOa.SD28EqyjtLBjPT144PdcQG.MRncp08pfgFL2ZQ080cJHVqAFkfPRtD6CYichKXOj6s=")
+ki5.loginResult()
 
 print u"Login Success yudi"
 reload(sys)
